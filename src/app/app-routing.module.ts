@@ -12,7 +12,8 @@ const routes: Routes = [
       {path: '', component: MainPageComponent},
       {path: 'product/:id', component: ProductPageComponent},
       {path: 'card', component: CardPageComponent}
-    ]}
+    ]},
+  {path: 'admin', loadChildren: './admin/admin.module#AdminModule'}
 ];
 
 @NgModule({
