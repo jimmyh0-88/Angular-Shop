@@ -18,7 +18,7 @@ import { OrdersPageComponent } from './orders-page/orders-page.component';
           {path: 'login', component: LoginPageComponent},
           {path: 'dashboard', component: DashboardPageComponent},
           {path: 'add', component: AddPageComponent},
-          {path: '', component: OrdersPageComponent},
+          {path: 'orders', component: OrdersPageComponent},
           {path: 'product/:id/edit', component: EditPageComponent}
         ]}
     ])
